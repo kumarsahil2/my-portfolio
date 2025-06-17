@@ -1,0 +1,111 @@
+.loader-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #050505 98%, #ffffff75 5%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  overflow: hidden;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.loader-content {
+  text-align: center;
+  color: #E4E6EB;
+  max-width: 90%;
+}
+
+.loader-icon img {
+  width: 30vw;
+  max-width: 140px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 0 25px rgba(0, 174, 239, 0.4);
+  animation: pulseGlow 2s infinite, floatUpDown 3s ease-in-out infinite;
+  margin-bottom: 1.5rem;
+}
+
+@keyframes pulseGlow {
+  0% { box-shadow: 0 0 15px rgba(0, 174, 239, 0.4); }
+  50% { box-shadow: 0 0 35px rgba(0, 174, 239, 0.8); }
+  100% { box-shadow: 0 0 15px rgba(0, 174, 239, 0.4); }
+}
+
+@keyframes floatUpDown {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.loader-title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2.5rem;
+  color: #fdfdfd;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+}
+
+.falling-text {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  word-break: break-word;
+}
+
+.falling-text span {
+  display: inline-block;
+  transform: translateY(-80px);
+  opacity: 0;
+  animation: fall 0.5s forwards;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.falling-text span:nth-child(n) {
+  animation-delay: calc(0.1s * var(--i));
+}
+
+.loader-secondary {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  color: #A8B2D1;
+  margin-top: 1.2rem;
+  line-height: 1.6;
+  padding: 0 1rem;
+}
+
+.loader-secondary .highlight {
+  color: #FF6B35;
+  font-weight: 600;
+}
+
+/* MEDIA QUERIES FOR SMALL DEVICES */
+@media (max-width: 600px) {
+  .loader-title {
+    font-size: 2rem;
+  }
+
+  .falling-text {
+    font-size: 1.6rem;
+  }
+
+  .loader-secondary {
+    font-size: 0.95rem;
+  }
+
+  .loader-icon img {
+    width: 100px;
+  }
+}
