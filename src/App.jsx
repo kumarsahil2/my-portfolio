@@ -104,7 +104,7 @@ function App() {
                 Let's Connect
               </a>
               <a
-                href="https://drive.google.com/file/d/1iJq9hTwZcDnZOmp6HuqaMR29pxN5C3s5/view?usp=sharing"
+                href="https://drive.google.com/file/d/1LsLWSrTNH8AZdHEjUCxqjEM1ZoqxhqjH/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-secondary"
