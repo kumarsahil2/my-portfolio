@@ -195,17 +195,17 @@ function App() {
         <h3>Zieers System Pvt Ltd — Software Developer Intern</h3>
         <ul className="experience-list">
           <li>
-             Built and deployed a full-stack NIFTY 50 prediction platform using
+            Built and deployed a full-stack NIFTY 50 prediction platform using
             React and Flask with 100% responsive UI and 40% faster data
             rendering via RESTful APIs.
           </li>
           <li>
-             Integrated 4+ APIs including Angel One, NewsAPI, Hugging Face, and
+            Integrated 4+ APIs including Angel One, NewsAPI, Hugging Face, and
             Gemini with secure authentication, improving data accuracy and user
             engagement by 30%.
           </li>
           <li>
-             Handled and visualized over 5,000+ records using MongoDB (PyMongo)
+            Handled and visualized over 5,000+ records using MongoDB (PyMongo)
             to ensure smooth data flow and scalability across the application.
           </li>
         </ul>
@@ -386,18 +386,23 @@ function App() {
               <img src="./dash2.png" alt="Inventory 3" />
             </div>
             <h3>Inventory Management System</h3>
-<p>
-  Full-stack MERN | Scalable APIs | Node.js, Express, MongoDB, React | JWT Auth
-</p>
-<br />
-<ul>
-  <li>
-    Inventory Management System built with MERN stack for product, stock, and sales management. Responsive UI and RESTful APIs ensure fast performance and seamless experience.
-  </li>
-  <li>
-    Features secure authentication, real-time dashboard, and efficient MongoDB data handling for scalable, reliable inventory tracking.
-  </li>
-</ul>
+            <p>
+              Full-stack MERN | Scalable APIs | Node.js, Express, MongoDB, React
+              | JWT Auth
+            </p>
+            <br />
+            <ul>
+              <li>
+                Inventory Management System built with MERN stack for product,
+                stock, and sales management. Responsive UI and RESTful APIs
+                ensure fast performance and seamless experience.
+              </li>
+              <li>
+                Features secure authentication, real-time dashboard, and
+                efficient MongoDB data handling for scalable, reliable inventory
+                tracking.
+              </li>
+            </ul>
 
             <a
               href="https://stock-management-phi-azure.vercel.app/"
