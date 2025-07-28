@@ -104,7 +104,7 @@ function App() {
                 Let's Connect
               </a>
               <a
-                href="https://drive.google.com/file/d/1LsLWSrTNH8AZdHEjUCxqjEM1ZoqxhqjH/view?usp=sharing"
+                href="/Sahil_Cv.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-secondary"
@@ -195,16 +195,18 @@ function App() {
         <h3>Zieers System Pvt Ltd — Software Developer Intern</h3>
         <ul className="experience-list">
           <li>
-            ✓ Designed and developed AI-driven NIFTY 50 stock prediction
-            dashboard using LSTM, sentiment analysis, and Angel One SmartAPI.
+             Built and deployed a full-stack NIFTY 50 prediction platform using
+            React and Flask with 100% responsive UI and 40% faster data
+            rendering via RESTful APIs.
           </li>
           <li>
-            ✓ Analyzed 5 years of historical data and implemented ML/DL models,
-            boosting accuracy by 15%.
+             Integrated 4+ APIs including Angel One, NewsAPI, Hugging Face, and
+            Gemini with secure authentication, improving data accuracy and user
+            engagement by 30%.
           </li>
           <li>
-            ✓ Built full-stack React-Flask app with NewsAPI sentiment insights
-            and 100% accurate documentation.
+             Handled and visualized over 5,000+ records using MongoDB (PyMongo)
+            to ensure smooth data flow and scalability across the application.
           </li>
         </ul>
       </section>
@@ -217,7 +219,7 @@ function App() {
             <div className="academic-content">
               <h3>Master of Computer Applications</h3>
               <h4>Manipal Institute of Technology, Manipal</h4>
-              <p>2023 - Present</p>
+              <p>2023 - 2025</p>
             </div>
             <div className="academic-logo">
               <img src="./manipallogo.jpg" alt="MIT Manipal" />
@@ -312,32 +314,32 @@ function App() {
         <div className="cards">
           <ProjectCard
             title="Tech Stack Expertise"
-            desc="Node.js, Express.js, React.js, MongoDB, MySQL, Firebase, PostgreSQL, Python, Java, C++, SQL, REST API design, JWT authentication, Secure Login flows."
+            desc="Skilled in building scalable applications using Node.js, Express.js, React.js, MongoDB, PostgreSQL, Python, and SQL. Strong grasp of RESTful API design, JWT authentication, and secure login systems backed by real project experience."
           />
 
           <ProjectCard
             title="AI & ML Knowledge"
-            desc="Built projects on LSTM models, Sentiment Analysis (TextBlob), Feature Engineering, BERT Model for Email Classification, PII Masking and FastAPI deployment."
+            desc="Applied machine learning to real-world problems through projects like a BERT-based Email Classifier with PII masking and LSTM-based stock prediction. Familiar with Feature Engineering, FastAPI, Regex-based data protection, and deploying ML models for production use."
           />
 
           <ProjectCard
             title="Full Stack Projects"
-            desc="Hands-on experience in developing scalable full-stack applications such as Inventory Management System (MERN), and Stock Prediction Dashboard (React-Flask)."
+            desc="Hands-on experience in delivering complete web solutions such as an Inventory Management System (MERN) and NIFTY 50 Prediction Dashboard (React + Flask). Projects included role-based access, CSV integration, and real-time analytics for 1000+ data entries."
           />
 
           <ProjectCard
             title="Academics & Research"
-            desc="Pursuing MCA from MIT Manipal with strong fundamentals in backend, AI and ML; completed B.Sc IT with solid database & programming foundation."
+            desc="Currently pursuing MCA at MIT Manipal, backed by a solid foundation from B.Sc. IT. Academically grounded in backend development and AI/ML concepts, with a strong focus on practical application and continuous learning."
           />
 
           <ProjectCard
             title="Cloud & Deployment Skills"
-            desc="Experience deploying applications on Render; working with Hugging Face Spaces, API integrations, and cloud-based ML models."
+            desc="Experienced in deploying full-stack and AI applications on platforms like Render, Vercel, and Hugging Face Spaces. Integrated APIs such as Angel One, NewsAPI, and Hugging Face to build intelligent, cloud-ready solutions with real-time capabilities."
           />
 
           <ProjectCard
             title="Personal Interests"
-            desc="Outside of tech, I enjoy playing football & volleyball, following football leagues, and constantly learning emerging technologies in backend and AI."
+            desc="Beyond tech, I’m passionate about football and volleyball, and love diving into emerging technologies in backend and AI. I thrive in team environments and enjoy building innovative solutions that blend creativity and code."
           />
         </div>
       </section>
@@ -353,18 +355,23 @@ function App() {
               <img src="./nifty3.png" alt="Nifty 50" />
             </div>
             <h3>NIFTY 50 Predictor (Ongoing)</h3>
-            <p>LSTM, Flask, React, Sentiment, AngelOne SmartAPI, AWS</p>
-            <br></br>
+            <p>
+              LSTM, Flask, React, Sentiment, AngelOne SmartAPI, AWS, MongoDB,
+              NewsAPI, Hugging Face, Gemini
+            </p>
+            <br />
             <ul>
               <li>
-                The NIFTY 50 Predictor forecasts stock prices using LSTM-based
-                deep learning models combined with sentiment analysis from
-                financial news.{" "}
+                Built and deployed a full-stack NIFTY 50 prediction platform
+                using React and Flask with 100% responsive UI and 40% faster
+                data rendering via RESTful APIs.
               </li>
               <li>
-                It integrates real-time stock data via Angel One SmartAPI and
-                presents results through a React-Flask fullstack dashboard.
+                Integrated 4+ APIs (Angel One, NewsAPI, Hugging Face, Gemini)
+                and implemented secure Auth, improving data accuracy and
+                engagement by 30%.
               </li>
+              <li>Handled 5,000+ records using MongoDB (PyMongo).</li>
             </ul>
             <a href="#" className="btn-secondary">
               View Details
@@ -379,24 +386,18 @@ function App() {
               <img src="./dash2.png" alt="Inventory 3" />
             </div>
             <h3>Inventory Management System</h3>
-            <p>
-              Full-stack MERN | Scalable APIs | Node.js, Express, MongoDB, React
-              | JWT Auth
-            </p>
-            <br />
-            <ul>
-              {" "}
-              <li>
-                {" "}
-                The Inventory Management System is a scalable full-stack MERN
-                application to manage products, stock levels, sales and
-                analytics.
-              </li>
-              <li>
-                It provides secure user authentication, REST APIs, and real-time
-                dashboard for efficient inventory tracking and reporting.
-              </li>
-            </ul>
+<p>
+  Full-stack MERN | Scalable APIs | Node.js, Express, MongoDB, React | JWT Auth
+</p>
+<br />
+<ul>
+  <li>
+    Inventory Management System built with MERN stack for product, stock, and sales management. Responsive UI and RESTful APIs ensure fast performance and seamless experience.
+  </li>
+  <li>
+    Features secure authentication, real-time dashboard, and efficient MongoDB data handling for scalable, reliable inventory tracking.
+  </li>
+</ul>
 
             <a
               href="https://stock-management-phi-azure.vercel.app/"
